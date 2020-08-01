@@ -15,6 +15,9 @@ app-square {
         cursor: pointer;
         background: linear-gradient(to bottom, lighten($primary, 30), lighten($primary, 20));
     }
+    &:active {
+        background: $primary;
+    }
 }
 
 button {
