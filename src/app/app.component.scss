@@ -1,3 +1,4 @@
+@import '../main.scss';
 .container {
     margin: 10px;
     padding: 10px;
@@ -5,8 +6,8 @@
 
 .navbar {
     max-height: 68px;
-    background: rgb(61, 5, 5);
-    color: white;
+    background: $primary;
+    color: $white;
     font-size: 2rem;
     padding: 5px 10px;
 }

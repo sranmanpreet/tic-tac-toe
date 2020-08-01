@@ -1,3 +1,6 @@
-<p>
+<p *ngIf="value && value=='X'" class="x">
+    <span>{{value}}</span>
+</p>
+<p *ngIf="value && value=='O'" class="o">
     <span>{{value}}</span>
 </p>

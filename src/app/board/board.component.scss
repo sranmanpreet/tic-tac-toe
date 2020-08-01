@@ -41,11 +41,3 @@ button {
         color: $primary;
     }
 }
-
-.x {
-    background: linear-gradient(to bottom, lighten($xColor, 30), lighten($xColor, 20));
-}
-
-.o {
-    background: linear-gradient(to bottom, lighten($oColor, 30), lighten($oColor, 20));
-}

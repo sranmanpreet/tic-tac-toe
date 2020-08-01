@@ -1,6 +1,16 @@
+@import '../../main.scss';
 p {
     margin: 0;
     text-align: center;
     line-height: 100px;
     font-size: 4rem;
+    color: $white;
+}
+
+.x {
+    background: $xColor;
+}
+
+.o {
+    background: $oColor;
 }
