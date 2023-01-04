@@ -1,0 +1,5 @@
+services:
+  tictactoe:
+    image: tictactoe:1.0.0-SNAPSHOT
+    ports:
+      - "4200:80"
