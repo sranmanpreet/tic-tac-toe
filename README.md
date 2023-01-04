@@ -33,6 +33,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Docker Deployment
+
+Run `docker run -p3000:80 sranmanpreet/tictactoe:1.0.0-SNAPSHOT` and access the app at http://localhost:3000/.
+
 ## License
 ----
 
